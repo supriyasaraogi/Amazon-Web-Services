@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hello</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+	<table>
+		<tr>
+			<td><h1 id = "message">Welcome</h1></td>
+		</tr>
+		<tr><td>
+				<form action="/upload" method="post" enctype="multipart/form-data">
+				<p class='description'></p><h4 id = "message">Please upload your documents here:</h4>
+				<input type="file" name="file">
+				<input type="submit" value="upload" name="Submit"<br><br>
+				</form>
+		</td></tr>
+		<tr>
+			<td><h1 id = "message">Uploading to db</h1></td>
+		</tr>
+		<tr><td>
+				<form action="/select" method="get" enctype="multipart/form-data">
+				<p class='description'></p><h4 id = "message">Enter the bucket name:</h4>
+				<input type="text" name="file">
+				<p class='description'></p><h4 id = "message">Enter the table name:</h4>
+				<input type="text" name="file">
+				<input type="submit" value="search" name="Submit"<br><br>
+				</form>
+		</td></tr>
+		</tr>
+			<td><h1 id = "message">Query</h1></td>
+		<tr><td>
+				<form action="/search" method="get" enctype="multipart/form-data">
+				<p class='description'></p><h4 id = "message">Enter the table name:</h4>
+				<input type="text" name="file">
+				<p class='description'></p><h4 id = "message">Enter the number of timesy:</h4>
+				<input type="text" name="file">
+				<input type="submit" value="search" name="Submit"<br><br>
+				</form>
+		</td></tr>
+		</tr>
+				<td><h1 id = "message">Query</h1></td>
+		<tr><td>
+				<form action="/search" method="get" enctype="multipart/form-data">
+				<p class='description'></p><h4 id = "message">Enter the table name:</h4>
+				<input type="text" name="file">
+				<p class='description'></p><h4 id = "message">Enter the number of times:</h4>
+				<input type="text" name="file">
+				<input type="submit" value="search" name="Submit"<br><br>
+				</form>
+		</td></tr>
+    </table>
+</body>
+</html>
